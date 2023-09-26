@@ -2,11 +2,22 @@ import React from 'react'
 
 import '../styles/Skills.css'
 
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiFigma, SiMongodb, SiFirebase, SiTypescript, SiNextdotjs } from 'react-icons/si'
+import {
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiFigma,
+  SiFirebase,
+  SiTypescript,
+  SiNextdotjs,
+  SiSass,
+  SiFramer,
+} from 'react-icons/si'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className="skills">
       <h2>My Skills</h2>
       <div className="skill">
         <div className="js">
@@ -17,7 +28,7 @@ const Skills = () => {
           <SiTypescript />
           <p>TypeScript</p>
         </div>
-        <div >
+        <div>
           <SiNextdotjs />
           <p>Next JS</p>
         </div>
@@ -34,16 +45,16 @@ const Skills = () => {
           <p>React</p>
         </div>
         <div className="node">
-          <SiNodedotjs />
-          <p>Node JS</p>
+          <SiFramer />
+          <p>Framer motion</p>
         </div>
         <div className="fig">
           <SiFigma />
           <p>Figma</p>
         </div>
         <div className="mon">
-          <SiMongodb />
-          <p>MongoDB</p>
+          <SiSass />
+          <p>SCSS</p>
         </div>
         <div className="fire">
           <SiFirebase />
@@ -54,4 +65,4 @@ const Skills = () => {
   )
 }
 
-export default Skills;
+export default Skills
